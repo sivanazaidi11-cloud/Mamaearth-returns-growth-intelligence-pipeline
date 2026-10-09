@@ -1,0 +1,234 @@
+{
+  "dataset": {
+    "customers": 44,
+    "products": 16,
+    "source_orders": 180,
+    "cleaned_orders": 175,
+    "duplicate_rows_removed": 5
+  },
+  "cleaning": {
+    "source_order_rows": 180,
+    "duplicate_rows_removed": 5,
+    "duplicate_order_ids_removed": [
+      "O0176",
+      "O0177",
+      "O0178",
+      "O0179",
+      "O0180"
+    ],
+    "missing_discount_pct_before_imputation": 12,
+    "missing_rating_before_imputation": 15,
+    "discount_imputation_value": 20.0,
+    "rating_imputation_value": 3.0
+  },
+  "overall": {
+    "net_revenue_inr": 95638.7,
+    "returned_orders": 44,
+    "return_rate_pct": 25.14,
+    "average_order_value_inr": 546.51
+  },
+  "monthly_revenue": [
+    {
+      "month": "2026-01",
+      "orders": 24,
+      "net_revenue_inr": 29392.7,
+      "returned_orders": 5,
+      "return_rate_pct": 20.83
+    },
+    {
+      "month": "2026-02",
+      "orders": 31,
+      "net_revenue_inr": 12966.1,
+      "returned_orders": 7,
+      "return_rate_pct": 22.58
+    },
+    {
+      "month": "2026-03",
+      "orders": 37,
+      "net_revenue_inr": 19530.7,
+      "returned_orders": 13,
+      "return_rate_pct": 35.14
+    },
+    {
+      "month": "2026-04",
+      "orders": 27,
+      "net_revenue_inr": 9405.5,
+      "returned_orders": 10,
+      "return_rate_pct": 37.04
+    },
+    {
+      "month": "2026-05",
+      "orders": 31,
+      "net_revenue_inr": 12911.5,
+      "returned_orders": 5,
+      "return_rate_pct": 16.13
+    },
+    {
+      "month": "2026-06",
+      "orders": 25,
+      "net_revenue_inr": 11432.2,
+      "returned_orders": 4,
+      "return_rate_pct": 16.0
+    }
+  ],
+  "return_rate_by_payment": [
+    {
+      "payment_method": "COD",
+      "orders": 54,
+      "returned_orders": 24,
+      "return_rate_pct": 44.44,
+      "net_revenue_inr": 38671.3
+    },
+    {
+      "payment_method": "UPI",
+      "orders": 53,
+      "returned_orders": 10,
+      "return_rate_pct": 18.87,
+      "net_revenue_inr": 25193.1
+    },
+    {
+      "payment_method": "CARD",
+      "orders": 68,
+      "returned_orders": 10,
+      "return_rate_pct": 14.71,
+      "net_revenue_inr": 31774.3
+    }
+  ],
+  "category_performance": [
+    {
+      "category": "Haircare",
+      "orders": 53,
+      "returned_orders": 14,
+      "return_rate_pct": 26.42,
+      "net_revenue_inr": 42520.8
+    },
+    {
+      "category": "Skincare",
+      "orders": 59,
+      "returned_orders": 18,
+      "return_rate_pct": 30.51,
+      "net_revenue_inr": 26431.4
+    },
+    {
+      "category": "Babycare",
+      "orders": 29,
+      "returned_orders": 7,
+      "return_rate_pct": 24.14,
+      "net_revenue_inr": 16535.9
+    },
+    {
+      "category": "PersonalCare",
+      "orders": 34,
+      "returned_orders": 5,
+      "return_rate_pct": 14.71,
+      "net_revenue_inr": 10150.6
+    }
+  ],
+  "city_tier_performance": [
+    {
+      "city_tier": 1,
+      "orders": 108,
+      "returned_orders": 22,
+      "return_rate_pct": 20.37,
+      "net_revenue_inr": 59624.2
+    },
+    {
+      "city_tier": 2,
+      "orders": 67,
+      "returned_orders": 22,
+      "return_rate_pct": 32.84,
+      "net_revenue_inr": 36014.5
+    }
+  ],
+  "acquisition_performance": [
+    {
+      "acquisition_source": "Ad",
+      "orders": 50,
+      "customers": 14,
+      "returned_orders": 16,
+      "return_rate_pct": 32.0,
+      "net_revenue_inr": 34380.5
+    },
+    {
+      "acquisition_source": "Organic",
+      "orders": 61,
+      "customers": 13,
+      "returned_orders": 11,
+      "return_rate_pct": 18.03,
+      "net_revenue_inr": 31638.5
+    },
+    {
+      "acquisition_source": "Referral",
+      "orders": 29,
+      "customers": 8,
+      "returned_orders": 7,
+      "return_rate_pct": 24.14,
+      "net_revenue_inr": 14410.0
+    },
+    {
+      "acquisition_source": "Social",
+      "orders": 35,
+      "customers": 9,
+      "returned_orders": 10,
+      "return_rate_pct": 28.57,
+      "net_revenue_inr": 15209.7
+    }
+  ],
+  "high_return_products": [
+    {
+      "product_id": "P12",
+      "product_name": "Baby Shampoo",
+      "category": "Babycare",
+      "orders": 6,
+      "returned_orders": 4,
+      "return_rate_pct": 66.67,
+      "net_revenue_inr": 1767.9
+    },
+    {
+      "product_id": "P04",
+      "product_name": "Anti-Hairfall Serum",
+      "category": "Haircare",
+      "orders": 7,
+      "returned_orders": 3,
+      "return_rate_pct": 42.86,
+      "net_revenue_inr": 5841.0
+    },
+    {
+      "product_id": "P07",
+      "product_name": "Vitamin C Serum",
+      "category": "Skincare",
+      "orders": 12,
+      "returned_orders": 4,
+      "return_rate_pct": 33.33,
+      "net_revenue_inr": 8038.5
+    },
+    {
+      "product_id": "P08",
+      "product_name": "Tea Tree Face Wash",
+      "category": "Skincare",
+      "orders": 16,
+      "returned_orders": 5,
+      "return_rate_pct": 31.25,
+      "net_revenue_inr": 4809.0
+    },
+    {
+      "product_id": "P10",
+      "product_name": "Rice Sunscreen SPF50",
+      "category": "Skincare",
+      "orders": 16,
+      "returned_orders": 5,
+      "return_rate_pct": 31.25,
+      "net_revenue_inr": 9518.8
+    }
+  ],
+  "verified_observations": {
+    "highest_return_payment_method": "COD",
+    "highest_return_payment_rate_pct": 44.44,
+    "lowest_return_payment_method": "CARD",
+    "lowest_return_payment_rate_pct": 14.71,
+    "highest_revenue_category": "Haircare",
+    "highest_revenue_category_inr": 42520.8,
+    "highest_return_product": "Baby Shampoo",
+    "highest_return_product_rate_pct": 66.67
+  }
+}
